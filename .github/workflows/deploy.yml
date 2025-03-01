@@ -20,7 +20,10 @@ jobs:
           cache: 'pnpm'
 
       - name: Install pnpm
-        run: npm install -g pnpm  # Install pnpm globally
+        run: npm install -g pnpm
+
+      - name: Check pnpm version (verify installation)
+        run: pnpm --version
 
       - name: Install dependencies
         run: pnpm install
@@ -33,4 +36,3 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
-
