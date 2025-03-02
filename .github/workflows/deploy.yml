@@ -1,14 +1,10 @@
-name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
       - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -17,13 +13,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'pnpm'
 
       - name: Install pnpm
         run: npm install -g pnpm
-
-      - name: Check pnpm version (verify installation)
-        run: pnpm --version
 
       - name: Install dependencies
         run: pnpm install
@@ -36,3 +28,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+
