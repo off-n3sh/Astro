@@ -28,5 +28,6 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+          run: ls -R dist  # List all files in dist folder
           token: ${{ secrets.DEPLOY }}
 
