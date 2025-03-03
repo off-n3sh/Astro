@@ -23,11 +23,17 @@ jobs:
       - name: Build Astro site
         run: pnpm run build
 
+      - name: Create .nojekyll file
+        run: touch dist/.nojekyll
+
+      - name: Debug dist folder
+        run: ls -R dist  # List all files in dist folder
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
-          run: ls -R dist  # List all files in dist folder
+          run: ls -R dist  
           token: ${{ secrets.DEPLOY }}
 
