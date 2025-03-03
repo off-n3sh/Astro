@@ -1,5 +1,5 @@
 # About
-Welcome to my blog! I’m off-n3sh, a cybersecurity enthusiast with a passion for diving into the world of Capture The Flag (CTF) competitions and exploring the latest in cyber defense techniques.
+Welcome to my domain of cybersecurity, where research meets innovation! I’m off-n3sh, a cybersecurity enthusiast with a passion for diving into the world of Capture The Flag (CTF) competitions and exploring the latest in cyber defense techniques.
 
 What I Do
 In addition to participating in CTFs, I enjoy coding and developing tools that can aid in cybersecurity research and operations. One of my notable projects is nipejs, a tool written in Go that you can find on my GitHub.
@@ -8,6 +8,11 @@ In addition to participating in CTFs, I enjoy coding and developing tools that c
 I started this blog to share my experiences, insights, and the knowledge I’ve gained throughout my journey in cybersecurity. Whether it’s discussing complex vulnerabilities, providing tips for CTF challenges, or sharing my latest coding projects, my goal is to create a resource that is both informative and engaging for fellow enthusiasts and professionals alike.
 
 ::github{repo="off-n3sh/Astro"}
+
+Additional Information
+
+    You can check out my Hack The Box profile here.
+    Follow me on X (formerly Twitter) for updates and more.
 
 Thank you for visiting my blog, and I hope you find the content useful and inspiring!
 

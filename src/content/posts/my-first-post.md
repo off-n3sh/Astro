@@ -1,23 +1,39 @@
 ---
-title: Preparation
-published: 2025-03-01
-description: 'Offensive Security'
-image: ''
-tags: [Certification]
-category: 'Certifications'
-draft: false 
-lang: 'en'
+title: Everyday Ops  
+published: 2025-02-02  
+description: 'Offensive Security & Automation'  
+image: '/assets/images/bin.jpeg'  
+tags: [Security, Automation, Research]  
+category: 'Projects'  
+draft: false  
+lang: 'en'  
 ---
-## Exam Tips
 
-    Create a good and easy-to-search cheatsheet. I used Joplin, and its global search was amazing. Everything I learned went there, and after some time, I did quick reviews. Having all key commands and techniques in one place saved me a lot of time during the exam.
+## Daily Security Operations  
 
-    Focus on your weak points. In my case, it was Windows privilege escalation and AD. But during my preparation, I spent half my time on Linux machines, which I was already confident in. This almost cost me the exam.
+Every day starts with updates—patching, refining scripts, and tightening security configurations. I run a set of custom scripts to automate checks, ensuring backend servers are hardened and running smoothly.  
 
-    Take good notes and screenshots of everything. This will save you a lot of time during the exam.
+## Backend Config & Automation  
 
-    Never give up. When the exam starts, set a timer. If you feel like you’re failing, look at it and remind yourself, “I still have 20 hours, it just started.” Don’t focus on the 4 hours that have passed. Focus on what’s ahead.
+From setting up secure environments to fine-tuning server defenses, automation is key. Scripts handle logging, monitoring, and threat detection, keeping everything efficient and secure.  
 
-    Take regular breaks. Keeping your brain fresh helps you come up with new ideas.
+## Current Project  
 
-    Test the tools you expect to use before the exam. You don’t want to waste valuable exam time troubleshooting BloodHound or any other tool.
+One of my ongoing projects is focused on **offensive security research**—building and testing security tools to stay ahead of emerging threats.  
+
+::github{repo="yourusername/yourproject"}  
+
+## Admonitions  
+
+:::important  
+Security is an evolving battlefield—staying updated isn’t optional.  
+:::
+
+:::tip  
+Automate what you can. Focus on what matters.  
+:::
+
+---
+
+This keeps it tight, direct, and clean. Swap in your real GitHub repo and image path, and you’re good to go. 🚀
+
