@@ -1,15 +1,22 @@
 ---
-title: Simple Guides for Fuwari
-published: 2024-04-01
-description: "How to use this blog template."
-image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+title: Passing the OSCP, Ethical Hacking
+published: 2025-03-01
+description: "After leaving my role in iCloud security and Mac systems, I dived into forensic security, research, and defense. Witnessing countless vulnerabilities firsthand, I saw only one path forward—fortifying systems against ever-evolving threats in our increasingly connected world."
+image: "./ethical.jpeg"
+tags: ["Research", "Blogging", "Security"]
+category: Certifications
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
+> Certificate source: [Source](https://www.credly.com/badges/7bb1d5fb-290d-4214-81d1-2800f7c62266/public_url)
 
+## What is OSCP?
+
+The OSCP (Offensive Security Certified Professional ) is a hands-on cybersecurity certification focused on penetration testing. Known for its 24-hour practical exam, it tests real-world exploitation skills and is highly respected in the industry.
+
+If you want to know more about it, check the official site: [OSCP Exam Guide.](https://help.offsec.com/hc/en-us/articles/360040165632-OSCP-Exam-Guide-Newly-Updated)
+
+<!--
 This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
 
 ## Front-matter of Posts
@@ -49,3 +56,4 @@ src/content/posts/
     ├── cover.png
     └── index.md
 ```
+-->
